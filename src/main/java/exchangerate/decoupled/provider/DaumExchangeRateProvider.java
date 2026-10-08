@@ -1,4 +1,4 @@
-package exchangerate.decoupled;
+package exchangerate.decoupled.provider;
 
 import java.io.BufferedReader;
 import java.io.IOException;

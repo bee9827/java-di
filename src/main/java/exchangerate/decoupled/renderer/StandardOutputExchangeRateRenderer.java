@@ -1,4 +1,6 @@
-package exchangerate.decoupled;
+package exchangerate.decoupled.renderer;
+
+import exchangerate.decoupled.provider.ExchangeRateProvider;
 
 public class StandardOutputExchangeRateRenderer implements ExchangeRateRenderer {
     private ExchangeRateProvider provider;

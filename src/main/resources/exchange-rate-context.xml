@@ -6,9 +6,9 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="exchangeRateProvider"
-          class="exchangerate.decoupled.DaumExchangeRateProvider"/>
+          class="exchangerate.decoupled.provider.DaumExchangeRateProvider"/>
 
     <bean id="exchangeRateRenderer"
-          class="exchangerate.decoupled.StandardOutputExchangeRateRenderer"
+          class="exchangerate.decoupled.renderer.StandardOutputExchangeRateRenderer"
           p:exchangeRateProvider-ref="exchangeRateProvider"/>
 </beans>

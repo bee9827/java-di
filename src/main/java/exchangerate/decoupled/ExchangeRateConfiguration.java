@@ -1,5 +1,9 @@
 package exchangerate.decoupled;
 
+import exchangerate.decoupled.provider.DaumExchangeRateProvider;
+import exchangerate.decoupled.provider.ExchangeRateProvider;
+import exchangerate.decoupled.renderer.ExchangeRateRenderer;
+import exchangerate.decoupled.renderer.StandardOutputExchangeRateRenderer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,5 +1,8 @@
 package exchangerate.decoupled;
 
+import exchangerate.decoupled.provider.ExchangeRateProvider;
+import exchangerate.decoupled.renderer.ExchangeRateRenderer;
+
 public final class ExchangeRateSupportFactory {
     private static final ExchangeRateSupportFactory INSTANCE;
     private final ExchangeRateProvider exchangeRateProvider;
